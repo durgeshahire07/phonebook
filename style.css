@@ -1,0 +1,78 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    
+    max-width: 100%;
+    background-color: #00b7ff;
+    padding: 25px;
+    margin: auto;
+    color: white;
+}
+.header h3, p{
+    text-align: center;
+}
+#heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 127, 247);
+}
+.container {
+    max-width: 50%;
+    text-align: center;
+    
+    margin: auto;
+}
+table {
+    width: 800px;
+}
+.table{
+    display: grid;
+    place-items: center;
+}
+th {
+    height: 50px; 
+    font-weight: bolder;
+}
+td {
+    height: 50px; 
+    text-align: center;
+}
+input {
+    width: 50%;
+    height: 30px;
+    padding: 20px;
+}
+button {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 127, 247);;
+  }
+  
+  button:hover {
+    background-color: rgb(0, 127, 247);;
+    color: white;
+  }
+#greentxt{
+    color: rgb(0, 131, 7);
+}
+#errtxt {
+    color: rgb(214, 7, 7);
+}
